@@ -5,7 +5,7 @@ import { ChanelCard, VideoCard } from "./Index";
 
 const Videos = ({ videos}) => {
   return (
-    <Stack sx={{flexDirection:{sm:'column',md:'row'},alignItems:{sm:'center',md:'start'}}} flexWrap="wrap"    justifyContent="start"  gap={2}>
+    <Stack sx={{flexDirection:{sm:'column',md:'row'},alignItems:{sm:'center',md:'start'}}} flexWrap="wrap"    justifyContent="center"  gap={2}>
      {videos.map((item,idx)=>{
       return (
       <Box key={idx}>
