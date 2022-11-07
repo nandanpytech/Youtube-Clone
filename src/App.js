@@ -8,7 +8,7 @@ function App() {
     <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Feed></Feed>}></Route>
-        <Route path="/video/:id" element={<VideoDetail></VideoDetail>}></Route>
+        <Route path="/videos/:id" element={<VideoDetail></VideoDetail>}></Route>
         <Route path="/channel/:id" element={<ChannelDetail></ChannelDetail>} ></Route>
         <Route path="/search/:searchTerm" element={<SearchFeed></SearchFeed>}></Route>
       </Routes>
